@@ -18,13 +18,10 @@ describe("About Branching", function() {
   it("should help you see how if statements work", function() {
     var value = "Boring";
     var funLevel = 8;
-    if (funLevel > 8) {
-      value = "Exciting";
-    }
-    else if (funLevel > 5) {
+    if (funLevel > 5) {
       value = "Fun";
     }
-    else if (funLevel > 2) {
+    else {
       value = "meh";
     }
     expect(value).toBe(FILL_ME_IN);
