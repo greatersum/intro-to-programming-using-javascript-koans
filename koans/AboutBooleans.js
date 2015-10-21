@@ -1,12 +1,12 @@
 describe("About Booleans", function() {
   it("should be truthy when true", function() {
     var trueVariable = FILL_ME_IN;
-    expect(trueVariable).toBeTruthy();
+    expect(trueVariable).toBeTrue();
   });
 
   it("should be falsy when false", function() {
     var falseVariable = FILL_ME_IN;
-    expect(falseVariable).toBeFalsy();
+    expect(falseVariable).toBeFalse();
   });
 
   it("should be and", function() {
@@ -55,7 +55,7 @@ describe("About Booleans", function() {
     var educational = FILL_ME_IN;
     var entertaining = FILL_ME_IN;
     var fun = FILL_ME_IN;
-    expect((educational || entertaining) && fun).toBe(FILL_ME_IN);
+    expect((educational || entertaining) && fun).toBe(false);
   });
 
   it("should take a comparison and result in a boolean", function() {

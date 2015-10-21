@@ -16,8 +16,8 @@ describe("About Strings", function() {
   });
 
   it("should give us the length of the string", function () {
-    var length = "Hello".length;
-    expect(length).toEqual(FILL_ME_IN);
+    var length = FILL_ME_IN.length;
+    expect(length).toEqual(3);
   });
 
   it("should have non-alphabet characters in a string", function () {
@@ -54,12 +54,6 @@ describe("About Strings", function() {
     var sentence = "Welcome to Greater Sum";
     var word = sentence.slice(FILL_ME_IN, FILL_ME_IN);
     expect(word).toEqual("Greater");
-  });
-
-  it("should convert a string to a number", function() {
-    var nineAsANumber = 9;
-    var nineAsAString = "9";
-    expect(nineAsANumber + nineAsAString).toEqual(FILL_ME_IN);
   });
 
   it("should convert a number to a string", function() {

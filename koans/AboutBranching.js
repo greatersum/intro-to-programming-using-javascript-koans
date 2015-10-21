@@ -9,22 +9,22 @@ describe("About Branching", function() {
 
   it("should help you see how if statements work", function() {
     var value = 1;
-    if (FILL_ME_IN) {
+    if (value > FILL_ME_IN) {
       value += 3;
     }
     expect(value).toBe(4);
   });
 
   it("should help you see how if statements work", function() {
-    var value = "Boring";
+    var funValue;
     var funLevel = 8;
     if (funLevel > 5) {
-      value = "Fun";
+      funValue = "Fun";
     }
     else {
-      value = "meh";
+      funValue = "meh";
     }
-    expect(value).toBe(FILL_ME_IN);
+    expect(funValue).toBe(FILL_ME_IN);
   });
 
 });
