@@ -4,32 +4,24 @@ describe("About Numbers", function() {
     expect(10 + 1).toEqual(FILL_ME_IN);
   });
 
-  it("should add multiple numbers", function () {
-    expect(100 + 10 + 1).toEqual(FILL_ME_IN);
-  });
-
   it("should subtract numbers", function () {
     expect(10 - 1).toEqual(FILL_ME_IN);
-  });
-
-  it("should subtract multiple numbers", function () {
-    expect(100 - 10 - 1).toEqual(FILL_ME_IN);
-  });
-
-  it("should add and subtract multiple numbers", function () {
-    expect(12 + 8 - 10).toEqual(FILL_ME_IN);
   });
 
   it("should multiply numbers", function () {
     expect(5 * 2).toEqual(FILL_ME_IN);
   });
 
-  it("should multiply multiple numbers", function () {
-    expect(5 * 3 * 2).toEqual(FILL_ME_IN);
-  });
-
   it("should divide numbers", function () {
     expect(10 / 2).toEqual(FILL_ME_IN);
+  });
+
+  it("should add multiple numbers", function () {
+    expect(100 + 10 + 1).toEqual(FILL_ME_IN);
+  });
+
+  it("should add and subtract multiple numbers", function () {
+    expect(12 + 8 - 10).toEqual(FILL_ME_IN);
   });
 
   it("should follow order of operations", function () {
