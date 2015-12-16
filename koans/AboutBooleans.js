@@ -1,12 +1,12 @@
 describe("About Booleans", function() {
   it("should be truthy when true", function() {
     var trueVariable = FILL_ME_IN;
-    expect(trueVariable).toBeTrue();
+    expect(trueVariable).toBe(true);
   });
 
   it("should be falsy when false", function() {
     var falseVariable = FILL_ME_IN;
-    expect(falseVariable).toBeFalse();
+    expect(falseVariable).toBe(false);
   });
 
   it("should be and", function() {
