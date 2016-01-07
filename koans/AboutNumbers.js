@@ -28,7 +28,7 @@ describe("About Numbers", function() {
     expect(10 + 4 * 2 - 10 / 5).toEqual(FILL_ME_IN);
   });
 
-  it("should follow order of operations with parenthesis", function () {
+  it("should follow order of operations with parentheses", function () {
     expect((10 + 4) * 2).toEqual(FILL_ME_IN);
   });
 
