@@ -96,7 +96,7 @@ describe("About Arrays", function() {
     for (var i = 1; i <= 10; i++) {
       array.push(i * i);
     }
-    expect(array[array.length]).toEqual(FILL_ME_IN);
+    expect(array[array.length - 1]).toEqual(FILL_ME_IN);
     expect(array.length).toEqual(FILL_ME_IN);
   });
 });
